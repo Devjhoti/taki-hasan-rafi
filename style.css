@@ -1,5 +1,3 @@
-
-
 /* general-parameter */
 section {
     margin-block: 100px;
@@ -78,7 +76,8 @@ header {
     margin-bottom: 0;
     color: #373342;
 }
-.ic-mobile-cont{
+
+.ic-mobile-cont {
     display: none;
 }
 
@@ -153,7 +152,8 @@ header {
     box-shadow: 10px -8px 25px rgba(0, 0, 0, 0.68);
     position: relative;
 }
-.profile::after{
+
+.profile::after {
     content: "";
     position: absolute;
     width: 400px;
@@ -164,6 +164,7 @@ header {
     z-index: -1;
 
 }
+
 .profile img {
     height: 100%;
     width: 100%;
@@ -629,7 +630,7 @@ footer {
         gap: 50px;
         background-color: #0098AA;
         margin-top: 0;
-      padding: 20px;
+        padding: 20px;
 
     }
 
@@ -812,14 +813,14 @@ footer {
 
     .update-cas {
         height: 300px;
-      
+
     }
 
 
     .cas-item {
         flex-direction: column;
         height: 400px;
-     
+
     }
 
     .cas-item p {
@@ -836,152 +837,221 @@ footer {
         width: 100%;
 
     }
+
     #sp-text {
         font-size: 15px;
     }
+
     /* cas-img */
-    #sp2{
+    #sp2 {
         height: 150px;
         width: 300px;
-       margin-left: 150px;
-       margin-bottom: 20px;
+        margin-left: 150px;
+        margin-bottom: 20px;
     }
-    #sp5{
+
+    #sp5 {
         height: 150px;
         width: 200px;
     }
-    .sp0{
+
+    .sp0 {
         height: 200px;
         width: 100%;
     }
-    .sp0 img{
-        height:100%;
+
+    .sp0 img {
+        height: 100%;
         width: 100%;
     }
-    #samsung-ds{
+
+    #samsung-ds {
         height: 100px;
         /* width: 100%; */
     }
-    #samsung-ds img{
-        height:100%;
+
+    #samsung-ds img {
+        height: 100%;
         width: 100%;
     }
-    #jan-19{
-        height:200px;
+
+    #jan-19 {
+        height: 200px;
         width: 400px;
     }
-    #jan-19 img{
-        height:100%;
+
+    #jan-19 img {
+        height: 100%;
         width: 100%;
     }
-    #neural{
+
+    #neural {
         height: 100px;
         width: 400px;
     }
-    #neural img{
+
+    #neural img {
         height: 80%;
         width: 100%;
     }
-    #sp1{
+
+    #sp1 {
         height: 100px;
         width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
     }
-    #sp1 img{
-        height:100%;
+
+    #sp1 img {
+        height: 100%;
         width: 100%;
     }
-    .dec7{
+
+    .dec7 {
         height: 120px;
         margin-bottom: 20px;
     }
-    .feb28{
+
+    .feb28 {
         height: 150px;
     }
-    .feb28 img{
+
+    .feb28 img {
         height: 180px;
     }
-    .bg-item-4 span {
-     left: 80px;
-    }
-    .info-m {
 
-       
+    .bg-item-4 span {
+        left: 80px;
     }
-    .info-m h1{
+
+    .info-m {}
+
+    .info-m h1 {
         font-size: 40px;
         width: 100%;
     }
-  
-    .info-m i{
+
+    .info-m i {
         font-size: 35px;
-    
+
     }
-    .slide-js{
+
+    .slide-js {
         width: 100%;
     }
-   
-    .mapouter{
+
+    .mapouter {
         width: 130px;
     }
-    
-    .find-us{
+
+    .find-us {
         width: 100%;
     }
-    .slide-js{
+
+    .slide-js {
         height: 200px;
     }
-  .slide-js a{
-      font-size: 30px;
-  }
-  .slide-js p{
-      font-size: 20px;
 
-  }
-  .icons-info {
-  gap: 20px;
+    .slide-js a {
+        font-size: 30px;
+    }
 
+    .slide-js p {
+        font-size: 20px;
+
+    }
+
+    .icons-info {
+        gap: 20px;
+
+    }
+
+    .top-banner-text small {
+        color: white;
+    }
+
+    .bg-item3-cont {
+
+        margin-top: 10px;
+    }
+
+    .bg-item3-cont h3 {
+        margin-left: 30px;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .bg-item-4 h2 {
+        margin-left: 25px;
+    }
+
+    .updates-cont {
+        margin-bottom: 0;
+        height: 800px;
+    }
+
+    .ic-mobile-cont {
+        display: block;
+    }
+
+    .tdot-bg {
+        padding: 20px;
+        border-radius: 0 0 25px 25px;
+    }
 }
-.top-banner-text small{
-    color: white;
-}
-.bg-item3-cont {
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    Adaptive to Medium Devices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    .profile::after{
+        right: 5%;
+    }
+    .dotted-bg{
+        width: 50%;
+        /* height: 80%; */
+    }
+    .bg-item-2{
+        /* right: -100px; */
+        /* width: 10%; */
+    }
+    header{
+        padding-left: 20px;
+    }
+    .Interests-card{
+        width: 40%;
+        height: 25%;
+    }
+    .Interests-card p{
+        font-size: 12px;
+    }
+    .Interests-card h5{
+        font-size: 17px;
+    }
+    .bg-item3-cont h3{
+        font-size: 60px!important;
+        position: relative;
+        left: 170px;
+    }
     
-    margin-top: 10px;
-}
-.bg-item3-cont h3{
-    margin-left: 30px;
-    font-size: 50px;
-    margin-top: 40px;
-}
-.bg-item-4 h2{
-    margin-left: 25px;
-}
-.updates-cont{
-    margin-bottom: 0;
-    height: 800px;
-}
-.ic-mobile-cont{
-    display: block;
-}
-.tdot-bg{
-    padding: 20px;
-    border-radius:0 0 25px 25px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .cas-item h1{
+        font-size: 30px;
+    }
+    .cas-item p{
+        font-size: 20px;
+    }
+    .cas-item-text{
+        flex-grow: 1;
+        width: 50%;
+    }
+    .cas-item-img{
+        flex-grow: 1;
+        width: 50%;
+    }
+    .cas-item-img img{
+        width: 100%;
+        height: 100%;
+    }
 
 }
