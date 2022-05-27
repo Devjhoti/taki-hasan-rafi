@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://i.ibb.co/9sM26zv/taki-hasan-rafi.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAKI</title>
+    <!-- boot-strap-styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- kit -->
+    <script src="https://kit.fontawesome.com/30ab1ee130.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav-start -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-container">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse tdot-bg" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto custom-ul  ">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" href="./papers/papers.html">Papers</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" href="./projects/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <button onclick="downloadCv()" class="cv-btn">Download CV</button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav-end -->
+
+    <!-- background item-1 -->
+    <!-- <div class="bg-item-1 ">
+
+    </div> -->
+
+    <!-- header starts -->
+    <header>
+
+        <!-- top banner -->
+        <section class="top-banner">
+            <div class="top-banner-text">
+                <h1>
+                    <span>Taki</span> Hasan Rafi
+                </h1>
+
+                <small class="small1">
+                    PhD Student in Computer Science at <span>HYU.</span>
+                </small>
+                <p>
+                    I am a PhD student in Computer Science in the <a href="http://cs.hanyang.ac.kr/eng/">Department of
+                        Computer Science</a> ,<a href="https://www.hanyang.ac.kr/web/eng"> Hanyang University</a>. I
+                    am advised by <a href="https://dkchae.github.io/"> Prof. Dong-Kyu Chae</a> at <a
+                        href="http://dilab.hanyang.ac.kr/">Data Intelligence Laboratory</a> as a Graduate Student
+                    Researcher.
+                </p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    More About Me
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title about-me" id="exampleModalLabel">More about me</h5>
+
+                            </div>
+                            <div class="modal-body modal-text">
+                                Before joining to HYU, I previously worked with <a
+                                    href="https://sites.google.com/view/operatingsystemlab/professor">Prof. Young Woong
+                                    Ko</a> as a Researcher at <a
+                                    href="https://sites.google.com/view/operatingsystemlab/home?authuser=0">Operating
+                                    System Laboratory</a>
+                                ,<a href="https://en.hallym.ac.kr/exchange_en/index.do"> Hallym University</a>. Prior to
+                                this, I received Bachelor's
+                                Degree from the <a href="https://www.aust.edu/eee">Department of Electrical
+                                    Engineering</a> at <a href="https://www.aust.edu/">Ahsanullah University of Science
+                                    and Technology</a> in August 2021. I am broadly interested in developing
+                                meta-learning
+                                methods for computer vision tasks with application to healthcare domain. My undergrad
+                                thesis work was focused on the <a
+                                    href="https://www.researchgate.net/publication/353039509_Environmental_Sound_Recognition_with_Spiking_Neural_Network">applications
+                                    of spiking neural networks.</a> Besides
+                                research, I worked at <a href="http://www.summitcommunications.net/">Summit
+                                    Communication Limited</a> as an Apprentice Engineer and I also
+                                worked as a STEM Educator at <a href="https://scitech.com.bd/">SciTech Innovations
+                                    Limited</a> , where I contributed developing
+                                a student-friendly STEM curriculum first time in Bangladesh.
+                                <span> My PhD is partially supported by</span> <a
+                                    href="https://bk21four.nrf.re.kr/">Brain Korea 21 Plus</a>!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close"
+                                    data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="profile ">
+                <img src="./taki_bro.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- header end -->
+    <!-- bg-item-2 -->
+    <div class="bg-item-2">
+        <div class="dotted-bg">
+            <img src="./Untitled-2.png" alt="">
+        </div>
+    </div>
+
+    <!-- bg-item-3 -->
+
+
+    <main class="bg-item3-cont">
+        <div>
+            <h3>
+                Research <br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interests
+            </h3>
+
+        </div>
+        <div class="Interests-card-cont">
+            <div class="Interests-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h5>Healthcare</h5>
+                <p>
+                    Medical Image Analysis (MRI, CTS, X-Ray, Ultrasound)
+                </p>
+            </div>
+            <div id="Interests-card-m" class="Interests-card">
+                <i class="fa-brands fa-medapps"></i>
+                <h5>Meta-Learning</h5>
+                <p> Few-Shot, Zero-Shot Learning</p>
+            </div>
+            <div class="Interests-card">
+                <i class="fa-solid fa-circle-nodes"></i>
+                <h5>Computer Vision</h5>
+                <p>Semantic Segmentation, Image Reconstruction</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="ic-mobile-cont">
+            <div class="ic-mobile">
+                <div class="ic-mobile-icon">
+                    <i class="fa-solid fa-laptop-medical"></i>
+                </div>
+                <div class="ic-mobile-text">
+                    <h5>Healthcare</h5>
+                    <p>
+                        Medical Image Analysis (MRI, CTS, X-Ray, Ultrasound)
+                    </p>
+                </div>
+
+            </div>
+            <div class="ic-mobile flex-row-reverse ">
+                <div class="ic-mobile-icon">
+                    <i class="fa-brands fa-medapps"></i>
+                </div>
+                <div class="ic-mobile-m">
+                    <h5>Meta-Learning</h5>
+                    <p> Few-Shot, Zero-Shot Learning</p>
+                </div>
+               
+            </div>
+            <div class="ic-mobile">
+                <div class="ic-mobile-icon">
+                    <i class="fa-solid fa-circle-nodes"></i>
+                </div>
+                <div class="ic-mobile-text">
+                    <h5>Computer Vision</h5>
+                    <p>Semantic Segmentation, Image Reconstruction</p>
+                </div>
+            </div>
+        </div>
+ 
+
+        
+
+        <div class="bg-item-3 ">
+
+
+        </div>
+    </main>
+    <section class="updates-cont">
+        <div class="profile2-cont">
+
+            <div class="bg-item-4">
+                <div>
+                    <h2>Updates<span class="badge bg-secondary">New!</span></h2>
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="update-cas">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                        aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                        aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                        aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+                        aria-label="Slide 12"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    April, 2022
+                                </h1>
+                                <h2>
+                                    Explainable AI for Semiconductor Process Data Analysis
+                                </h2>
+                                <p>
+                                    A new research project on Explainable AI for Semiconductor Process Data Analysis by
+                                    <a href="https://www.samsung-dsrecruit.com/index.php">Samsung DS</a> is
+                                    accepted until 2025 from DILAB! I will be working on it in parallel with Samsung DS.
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img" id="samsung-ds">
+                                <img src="./ds1.jpg" alt="">
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Feb 28, 2022
+                                </h1>
+                                <h2>
+                                    I joined DILAB
+                                </h2>
+                                <p>
+                                    I joined DILAB, started PhD in Computer Science at Hanyang University.
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img feb28">
+                                <div class="cas-item-right">
+                                    <img src="./Hanyang University.2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Feb 21, 2022
+                                </h1>
+
+                                <p>
+                                    I am reviewing for <a href="https://www.frontiersin.org/journals/public-health">
+                                        Frontiers in Public Health!</a>
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp1">
+                                    <img src="./frontiersin3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Feb 20, 2022
+                                </h1>
+                                <h2>
+                                    Higher Studies: Across the
+                                </h2>
+                                <p>
+                                    I gave a talk on Higher Studies at an event called 'Higher Studies: Across the
+                                    ', organized by BUET!
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp2">
+                                    <img src="./buet logo4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Jan 19, 2022
+                                </h1>
+
+                                <p>
+                                    I gave a talk on Higher Studies at AUST, here is the talk.
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img" id="jan-19">
+                                <div class="cas-item-right" >
+                                    <img src="./aust5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Jan 8, 2022
+                                </h1>
+
+                                <p>
+                                    I am reviewing for Computers in <a
+                                        href="https://www.sciencedirect.com/journal/computers-in-biology-and-medicine">Biology
+                                        and Medicine</a> !
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp2">
+                                    <img src="./Computers in Biology and Medicine6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Aug 30, 2021
+                                </h1>
+
+                                <p>
+                                    One <a href="https://ieeexplore.ieee.org/abstract/document/9525093">review paper</a>
+                                    gets published in IEEE Access!
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp2">
+                                    <img src="./ieee8.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Aug 1, 2021
+                                </h1>
+
+                                <p>
+                                    Graduated in Electrical Engineering from AUST!
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp2">
+                                    <img src="./Graduated9 .jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    July 1, 2021
+                                </h1>
+
+                                <p>
+                                    I have started working with Prof. Dr. Young at Operating System Lab.
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right sp0"  id="sp5">
+                                    <img src="./Operating System Lab..png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    June 21, 2021
+                                </h1>
+                                <h2>
+                                    Environmental Sound Recognition with Spiking Neural Network
+                                </h2>
+                                <p id="sp-text">
+                                    Undergrad thesis on Environmental Sound Recognition with Spiking Neural Network has
+                                    been defended. Advised by Mr. Monjur Morshed. Congratulations to all teammates.
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right sp0" id="neural">
+                                    <img src="./Spiking-Neural-Network9.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    June 14, 2021
+                                </h1>
+
+                                <p>
+                                    I am reviewing for <a href="https://ieeeaccess.ieee.org/">IEEE Access!</a>
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right" id="sp2">
+                                    <img src="./ieee8.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                        <div class="cas-item ">
+                            <div class="cas-item-text ">
+
+                                <h1>
+                                    Dec 7, 2020
+                                </h1>
+
+                                <p>
+                                    One <a href="https://ieeexplore.ieee.org/document/9277695">paper</a> gets published
+                                    at <a href="https://cibcb2020.uai.cl/">17th IEEE CIBCB.</a>
+                                </p>
+
+                            </div>
+                            <div class="cas-item-img">
+                                <div class="cas-item-right dec7">
+                                    <img src="./cibcb10.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="pre-btn" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="next-btn" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <div class="info-m">
+
+
+        <div class="find-us">
+            <h1>
+                <i style="color:rgb(186, 54, 98) ;" class="fa-solid fa-location-dot"></i> <span>Contact Me</span>
+            </h1>
+
+            <div class="icons-info">
+                <i onclick="mail()" class="fa-solid fa-envelope"></i>
+                <i onclick="phone()" class="fa-solid fa-phone"></i>
+                <i onclick="linkedin()" class="fa-brands fa-linkedin"></i>
+                <i onclick="fb()" class="fa-brands fa-facebook"></i>
+                <i onclick="git()" class="fa-brands fa-github"></i>
+                <i onclick="reserchgate()" class="fab fa-researchgate"></i></a>
+                <i id="map" onclick="map()" class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+            <div class="info-js">
+                <div class="slide-js" id="slide-js">
+                   <p>
+                    CLICK THE ICONS TO GET DETAILS
+                   </p> 
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+
+
+
+        <div style="text-align: center;" class="later">
+            <p>
+                &copy;MiDnight C<img class="img" src="https://i.ibb.co/fXT6jFd/giphy.webp" alt=""> DERS <i
+                    class="fa-solid fa-moon"></i> || 2022
+            </p>
+            <div class="icons">
+                <a target="_blank" href="https://anindyabaul.github.io/midnightcoders71/index.html"><i class="fa-solid fa-paper-plane"></i></a>
+                <a href=""><i class="fa-solid fa-mobile-button" data-bs-toggle="tooltip" data-bs-placement="top" title="+8801408306496" ></i></a>
+                <a target="_blank" href="https://www.facebook.com/MiDnight-Coders-Web-Solutions-106000918795814"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a target="_blank" href="https://github.com/AnindyaBaul"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+        </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+
+    <!-- bootstrap-js-bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- custom-js -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
